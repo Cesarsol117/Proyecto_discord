@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(153, 66, 233);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    margin: 0;
+    color: antiquewhite;
+}
+header{
+    background: image-set('https://img.freepik.com/vector-gratis/fondo-moderno-formas-dinamicas-degradado_23-2148206125.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+main{
+    /* background: image-set('https://ayudaleyprotecciondatos.es/wp-content/uploads/2020/09/bases-de-datos-dinamicas.jpg'); */
+    height: 1200px;
+    /* background: image-set('https://i.gifer.com/o3h.gif'); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* a{
+    color: #ffffff;
+    text-decoration: none;
+    /* border: 1px solid red;
+    background-color:rgb(68, 3, 128);
+    padding: 15px 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+} */
+
+/* a:active{
+    color: #350707;
+} */
+/* --- barra navegadora --- */
+.menu {
+    display: none;
+}
+.nav-bar-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.navbar-left ul,
+.navbar-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-left ul {
+    margin-left: 12px;
+}
+
+.navbar-left ul li a,
+.navbar-right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+    border: 1px solid var(--hospital-green);
+    color: rgb(0, 0, 0);
+    background-color: rgb(47, 203, 255);
+}
+
+.navbar-email {
+    /* color: var(--very-light-pink); */
+    color: #ffffff;
+    cursor: pointer;
+    /* font-size: var(--sm); */
+    font-size: 15px;
+    margin-right: 12px;
+}
+
+.navbar-shopping-cart {
+    position: relative;
+}
+
+.navbar-shopping-cart div {
+    width: 16px;
+    height: 16px;
+    background-color: var(--hospital-green);
+    border-radius: 50%;
+    font-size: var(--sm);
+    font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---- fin barra navegadora --- */
+/* container y secciones */
+.section-join-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-join-us-btn-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+}
+.section-join-us-btn-contact a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fcdfff;
+    text-decoration: none;
+    background-color: rgb(3, 105, 214);
+    padding: 15px 40px;
+    margin: 5px;
+    border-radius: 10px;
+}
+/* scrolll */
+.scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-content {
+    display: flex;
+    animation: scrollAnimation 10s alternate infinite;
+}
+
+.img-scroll {
+    width: auto;
+    height: 600px;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-230%);
+    }
+}
+/* section 2 about us */
+.section-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid aliceblue;
+    background: image-set('../images/999.jpg');
+}
+.section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px 20px;
+    
+}
+.section-container p{
+    text-align: justify;
+    padding: 10px;
+}
+.section-container img{
+    width: 90%;
+
+}
+.section-container-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+.grafica-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+#miGrafica{
+    display: block;
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+}
