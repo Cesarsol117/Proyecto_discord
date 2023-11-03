@@ -196,10 +196,17 @@ main{
     width: 500px;
     height: 300px;
     border: 1px solid #ccc;
+    background-color: #fcdfff;
 }
 #miGrafica{
     display: block;
     box-sizing: border-box;
     height: 500px;
     width: 500px;
+}
+#graficas-barras{
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
 }

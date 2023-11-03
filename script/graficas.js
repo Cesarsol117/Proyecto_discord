@@ -7,8 +7,8 @@ var datos = {
     datasets: [{
         label: 'Ventas Mensuales',
         data: [12, 19, 3, 5, 2, 3],
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(20, 12, 192, 0.2)',
+        borderColor: 'rgba(75, 19, 192, 1)',
         borderWidth: 1
     }]
 };
